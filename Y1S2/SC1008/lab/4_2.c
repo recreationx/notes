@@ -69,4 +69,10 @@ void readNames(char nameptr[][80], int *size)
 int findTarget(char *target, char nameptr[][80], int size)
 {
     /* Write your code here */
+    for (int i = 0; i < size;i++) {
+        if (strcmp(target, nameptr[i]) == 0) {
+            return i
+        }
+    }
+    return -1;
 }
