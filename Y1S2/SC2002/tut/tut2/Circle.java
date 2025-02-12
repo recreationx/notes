@@ -17,11 +17,11 @@ public class Circle {
     }
 
     public double area() {
-        return this.PI * this.getRadius() * this.getRadius();
+        return PI * this.getRadius() * this.getRadius();
     }
 
     public double circumference() {
-        return 2 * this.PI * this.getRadius();
+        return 2 * PI * this.getRadius();
     }
     
     public void printArea() {

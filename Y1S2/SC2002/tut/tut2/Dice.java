@@ -6,7 +6,7 @@ public class Dice {
 
     public void setDiceValue() {
         Random rand = new Random();
-        this.valueOfDice = rand.nextInt(7) + 1;
+        this.valueOfDice = rand.nextInt(6) + 1;
 
     }
 
